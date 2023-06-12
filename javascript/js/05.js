@@ -28,3 +28,26 @@ if ("delia >50"){
 }
 
 
+// EXERCICE
+
+// On utilise le IF pour vérifier l'age de l'internaute. 
+// s'il est majeur je lui souhaite la biennvenue
+// s'il est mineur je lui (1) signale et (2) le renvoie vers un autre site
+
+// 1-- je déclare la majorité légal
+var majoriteFr =18;
+
+// 2-- demander l'age en s'assurant que nous avons un NUMBER
+var age = parseInt(prompt("Indiquez votre age"));
+
+// 3-- je vérifie si mon internaute est majeur
+if (age >= majoriteFr){
+    alert ("Bienvenue, vous êtes majeur") // Bienvene si vrai
+} else{
+    //s'il est mineur je lui signale
+    alert("Allez voir un autre site")
+    document.location.href="http://www.darty.fr/"
+
+}
+
+
