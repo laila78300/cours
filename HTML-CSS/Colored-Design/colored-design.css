@@ -1,0 +1,21 @@
+.header{
+    background-color: white;
+    display: flex;
+}
+
+.nav{
+    color: darkgreen;
+    margin: 30px;
+    padding:30px;
+    border-radius: 40px;
+    
+   
+}   
+
+.section{
+    
+}
+
+.p{
+    text-align: justify;
+}

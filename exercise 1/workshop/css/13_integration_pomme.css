@@ -1,0 +1,64 @@
+body{
+    margin:10px 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    background: #DDEEAA;
+}
+
+#conteneur{
+    width: 770px; /* largeur */
+    margin: 0 auto; /*marge automatique qui centre le bloc aprés l'avoir remonté le plus haut possible dans mon afffichage*/
+    text-align: left;
+    border: 2px solid #aabb44; /* bordure autour de toute la page */
+    background: #fff; /* couleur du fond de mon #conteneur */
+}
+
+h1{
+    height: 258px; /* personnaliser la hauteur de mon titre */
+    background: url(../css/image/apple\ \(2\).jpg) no-repeat;
+    margin: 0;
+}
+
+h1 a{
+    /* On donne les même dimensions au lien, chose possible grâce à la proprièté display: block; qui transforme le lien en élément de typé block, auquel on peut donner des propriétés de taille. On met aussi l'image de dond qui a les meme dimensions que le cadre ainsi crée */
+
+    width: 400px;
+    height: 70px;
+    display: block;
+    background: url(../css/image/title\ \(1\).gif) no-repeat;
+    position: relative;
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px; /* Le texte-indent négatif est fait pour pouvoir cacher le texte hors de la page, ce quee nous voulons */
+}
+
+ul{
+    height: 35px; /* On donne une hauteur au menu, correspondant à la taille de l'image utiliser en fond */
+    margin: 0;
+    padding: 0;
+    background: url(../css/image/bg_menu\ \(1\).gif) repeat-x 0-25px; /* on met ensuite l'image de fond avec un décalage de 25 pixels vert le haut */
+    list-style-type: none; /* on cache les puces */
+}
+
+ul li{
+    float: left; /* On rend les li en flottant pour pouvoir les afficher horizontalement */
+    text-align: center; /* on centre le texte */
+}
+
+ul li a{
+    display: block; /*Nous pouvons dimensionner les a grace a la propriété display: block; */
+    width: 130px; /* largeur */
+    line-height: 25px; /* taille de la police */
+    font-size: 1.2em; /*taille de police */
+    letter-spacing: 2px; /* espacement des lettres */
+    text-decoration: none; /* décoration du texte */
+    border-right: 2px solid #dea; /* bordure a droite */
+}
+
+ul li:hover{
+    background: url(../css/image/bg_menu\ \(1\).gif);
+    
+}
+
+

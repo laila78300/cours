@@ -1,0 +1,9 @@
+.contenu{
+    height: 45em;/* hauteur */
+    width: 45em;/* largeur */
+    margin: auto; /* centre
+    automatique la balise */
+    border-radius: 50%; /* arrondie les angles */
+    background: -o-linear-gradient(to left, #40a497, #6840a4);/* dégradé qui demarre avec la première couleur à droite et lz dernière à gauche( violet- vert */
+    /* lien vers un generateur de dégradeés: https: //cssgradient.io/
+}
