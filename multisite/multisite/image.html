@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Reliez le fichier htmlau fichier CSS (Cascading Style Sheets)-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <!-- lien pour le 'Font Awsome' (icones) ici en local mais d'habitude via le site cndjs -->
+
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Relier le fichier HTML au fichier CSS-->
+
+    <meta name="description" content="Mes image en HTML/CSS">
+    <!-- Description sous le titre dans la recherche google-->
+</head>
+
+<body><!-- Corps deu document-->
+
+    <header><!-- Zone du haut, ex:logo, slogan, bannière ..... -->
+
+        <div id="logo">
+
+            <a href="#logo">
+
+                <button type="button">
+                    <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                </button>
+            </a>
+
+            <img src="img/toureiffel.jpg">
+
+        </div>
+
+        <div id="slogan">
+            <h1>Mon premier site en HTML/CSS</h1>
+        </div>
+
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blanc">
+
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank"></a>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </div>
+
+        <div class="clear"></div>
+
+    </header>
+
+    <nav> <!-- Zone de menu,les liens pour naviguer sur le site -->
+        <div class="ancreNav">
+            <a href="index.html">Structure</a>
+            <a href="texte.html">Texte</a>
+            <a href="selecteurs.html">Selecteurs</a>
+            <a href="image.html" class="active">Image</a>
+            <a href="position.html">Position</a>
+            <a href="zoning.html">Zoning</a>
+            <a href="tableau.html">Tableau</a>
+            <a href="liste.html">Liste</a>
+            <a href="lien_menu.html">Lien & Menu</a>
+            <a href="formulaire.html">Formulaire</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="animation.html">Animation</a>
+
+        </div>
+    </nav>
+
+        <!-- main>h2{Images}+section.imageFond>h3{Image de fond en CSS}+p>lorem50 -->
+        <main>
+            <h2>IMAGES</h2>
+
+            <section class="imageFond">
+                <h3>Image de fond enCSS</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore officia rerum sunt! Reprehenderit
+                    laborum quo, ipsa fuga natus ad minus laudantium officia fugiat cupiditate consequuntur deleniti
+                    ratione cumque quidem vel incidunt! Ea cupiditate blanditiis quidem atque! Dolore nulla laudantium
+                    quibusdam obcaecati, saepe quas mollitia quae dignissimos reprehenderit eos ipsa dolorem?
+                </p>
+            </section>
+
+            <section>
+                <h3>Image dans HTML</h3>
+
+                <figure>
+                    <img src="img/toureiffel.jpg" alt="" title="cette photo montre la tour eiffel de paris">
+
+                    <figcaption>Une photo de la tour Eiffel</figcaption>
+                </figure>
+
+            </section>
+
+            <section class="rotationImg">
+                <h3>Image en HTML / CSS</h3>
+                <img src="img/téléchargement (1).png" class="image" alt="">
+                <img src="img/téléchargement (1).png" class="image" alt="">
+                <img src="img/téléchargement (1).png" class="rotation360 image" alt="">
+
+            </section>
+
+        </main>
+
+        <footer>
+            <!-- Zone de bas, ex : liens administratifs, mentions l'égales, plan du site, contact, -->
+        
+            <small>
+                &copy; 2023 POISSY
+            </small>
+        
+        </footer>
+
+
+    </body>
+</html>
