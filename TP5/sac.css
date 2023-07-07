@@ -1,0 +1,79 @@
+.container{
+    margin: auto;
+}
+
+header{
+    height: 20%;
+    width: 50%;
+}
+
+#logo{
+    height: 100%;
+    width: 50%;
+}
+
+table{
+        margin: auto;
+}
+
+nav{
+    background: rgb(250, 246, 246);
+    display: flex;
+} 
+
+h1{
+    display: flex;
+    margin-left: 15%;
+}
+
+.banner img{
+    width: 50%;
+    height: 100%;
+}
+
+.shop{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.shop p{
+    font-size: 15px;
+}
+
+.shop .pull img{
+    width: 100%;
+    height: 70%;
+}
+
+.shop .sac img{
+    width: 100%;
+    height: 70%;
+    padding-left: 0.5%;
+}
+
+.shop img{
+    width: 5%;
+}
+
+footer img{
+    width: 50%;
+    height: 100%;
+}
+
+.bouton img{
+    width: 5%;
+}
+
+.tableau img{
+    width: 15%;
+    height: 20%;
+}
+
+table{
+   display: flex;
+}
+
+.iphone img{
+    margin-left: 20%;
+} 

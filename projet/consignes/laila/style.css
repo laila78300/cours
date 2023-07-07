@@ -1,0 +1,93 @@
+body{
+    height: auto;
+    width: auto;
+}
+
+.aide{
+    background-color: rgb(107, 105, 105);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(241, 233, 233);
+    float: left;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+header .reponse{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+header .achat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+header .panier, img{
+    height: 30px;
+}
+
+.logo {
+    float: left;
+    margin: 30px;
+    height: 50px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo h1{
+    font-size: small;
+}
+
+.devis{
+    float: left;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+nav {
+    float: left;
+    justify-content: space-between;
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+}
+
+nav li{
+    float: left;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: rgb(241, 233, 233);
+}
+nav ul, li{
+    border: 0.5px solid gray;
+}
+
+.canape img{
+    float: left;
+    justify-content: space-between;
+}
+
+.canape1 img{
+    height: 350px;
+}
+
+.canape2 img{
+    height: 150px;
+}
+
+
+
+
+

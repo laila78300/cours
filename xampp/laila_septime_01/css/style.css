@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cormorant+Garamond;
+    position: relative;}
+
+header{
+    text-align: center;
+    color: black;
+}
+
+header .nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+section .h1 .p{
+    align-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    text-align: right;
+}
+
+
+
